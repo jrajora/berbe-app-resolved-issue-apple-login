@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30">
+  <g id="Group_65421" data-name="Group 65421" transform="translate(-232 -187)">
+    <ellipse id="Ellipse_303" data-name="Ellipse 303" cx="14.5" cy="15" rx="14.5" ry="15" transform="translate(232 187)" fill="#32b6ea"/>
+    <path id="Icon_metro-camera" data-name="Icon metro-camera" d="M7.224,13.132a3.184,3.184,0,1,0,3.184-3.184,3.184,3.184,0,0,0-3.184,3.184ZM17.267,7.744H13.838c-.245-.98-.49-1.959-1.47-1.959H8.449c-.98,0-1.225.98-1.47,1.959H3.55a.983.983,0,0,0-.98.98v8.818a.983.983,0,0,0,.98.98H17.267a.983.983,0,0,0,.98-.98V8.723a.983.983,0,0,0-.98-.98ZM10.409,17.48a4.348,4.348,0,1,1,4.348-4.348A4.348,4.348,0,0,1,10.409,17.48Zm6.858-6.8H15.307V9.7h1.959Z" transform="translate(236.247 190.033)" fill="#fff"/>
+  </g>
+</svg>

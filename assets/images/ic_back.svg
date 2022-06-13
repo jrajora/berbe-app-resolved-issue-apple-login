@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.957" y1="0.322" x2="-0.03" y2="1.425" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#35ede5"/>
+      <stop offset="1" stop-color="#31a4ec"/>
+    </linearGradient>
+    <clipPath id="clip-Artboard_2">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <g id="Group_62700" data-name="Group 62700" transform="translate(-24 -59)">
+      <g id="Group_44" data-name="Group 44" transform="translate(0 -4)">
+        <path id="Ellipse_1" data-name="Ellipse 1" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(24 63)" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="Icon_ionic-md-arrow-back" data-name="Icon ionic-md-arrow-back" d="M23.156,13.492H10.11L16.123,7.48l-1.557-1.5-8.59,8.59,8.59,8.59,1.5-1.5L10.11,15.64H23.156Z" transform="translate(29.434 65.242)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.765" height="40" viewBox="0 0 98.765 40">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.372" x2="0.424" y2="1.36" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#35ede5"/>
+      <stop offset="1" stop-color="#31a4ec"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_65427" data-name="Group 65427" transform="translate(88 -59)">
+    <g id="Group_44" data-name="Group 44" transform="translate(0 -4)">
+      <path id="Path_3020" data-name="Path 3020" d="M18.29,0H80.475c10.1,0,18.29,8.954,18.29,20s-8.189,20-18.29,20H18.29C8.189,40,0,31.046,0,20S8.189,0,18.29,0Z" transform="translate(-88 63)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_65428" data-name="Group 65428" transform="translate(37 68.933)">
+      <path id="Path_3019" data-name="Path 3019" d="M29.812,11.758a3.185,3.185,0,0,0-2.563,1.3l-5-2.557a3.187,3.187,0,0,0-.1-2.094l5.244-3.151a3.175,3.175,0,1,0-.545-.912L21.584,7.5a3.187,3.187,0,1,0,.2,3.953L26.768,14a3.188,3.188,0,1,0,3.045-2.243Zm0-10.7a2.125,2.125,0,1,1-2.125,2.125A2.127,2.127,0,0,1,29.812,1.062ZM19.187,11.723A2.125,2.125,0,1,1,21.312,9.6,2.127,2.127,0,0,1,19.187,11.723Zm10.625,5.348a2.125,2.125,0,1,1,2.125-2.125A2.127,2.127,0,0,1,29.812,17.071Z" transform="translate(-128 1)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+    <text id="Share" transform="translate(-23 85)" fill="#fff" font-size="14" font-family="NotoSans-ExtraBold, Noto Sans" font-weight="800"><tspan x="-20.181" y="0">Share</tspan></text>
+  </g>
+</svg>

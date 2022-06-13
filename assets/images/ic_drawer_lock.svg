@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-Artboard_3">
+      <rect width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <g id="Icon_feather-lock" data-name="Icon feather-lock" transform="translate(-0.929 -0.699)">
+      <path id="Path_2969" data-name="Path 2969" d="M6.04,16.5H16.818a1.54,1.54,0,0,1,1.54,1.54v5.389a1.54,1.54,0,0,1-1.54,1.54H6.04a1.54,1.54,0,0,1-1.54-1.54V18.04A1.54,1.54,0,0,1,6.04,16.5Z" transform="translate(0 -6.571)" fill="none" stroke="#33c4e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_2970" data-name="Path 2970" d="M10.5,9.929V6.849a3.849,3.849,0,1,1,7.7,0V9.929" transform="translate(-2.921)" fill="none" stroke="#33c4e9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

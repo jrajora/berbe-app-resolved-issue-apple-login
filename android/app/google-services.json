@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "773207284679",
+    "project_id": "berbe-app",
+    "storage_bucket": "berbe-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773207284679:android:9069b65568239fe72757e2",
+        "android_client_info": {
+          "package_name": "com.app.berbe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773207284679-14s4edfev532n34dnh7mcj7qdutvnt31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.berbe",
+            "certificate_hash": "ffaeb3b73c87563d45729f36a639c98d619a4529"
+          }
+        },
+        {
+          "client_id": "773207284679-cls7hlrggg2qb6hn71rgolohhl8nkrvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.berbe",
+            "certificate_hash": "5873905572e7d49effcbf50600f710cce59adff9"
+          }
+        },
+        {
+          "client_id": "773207284679-f9qfp5h43l4dmi68tfn4117h5i0hhtvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.berbe",
+            "certificate_hash": "664dbbb25652f5b48129a0415055674ef5735405"
+          }
+        },
+        {
+          "client_id": "773207284679-fl5shktdsb9f2fvk5v20knj7rd0mjr8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.berbe",
+            "certificate_hash": "b49fb49e025e50945d8392aa31a5bffda26825c3"
+          }
+        },
+        {
+          "client_id": "773207284679-tjf6fs71ebist8bcbclupp7ggdn8q9e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.berbe",
+            "certificate_hash": "b6e66d74ba9226e8394caaa72a86f9a2dd1eeba3"
+          }
+        },
+        {
+          "client_id": "773207284679-npntbvn8ui8oslnsmj6jm5sbnq5gqc57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvyfxfh63FnskJAPygsXMeiJntkfs6m3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773207284679-2paa2uh9ilba7055ftime30ol01avjoh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "773207284679-h8jhi7b8pnfig8bd35tf4o3132rsc007.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.g16.app.berbe"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
