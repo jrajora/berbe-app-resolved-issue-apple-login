@@ -153,6 +153,8 @@ Future<void> logGoogleAnalyticsEvent(
 
 void shareAppContent() {
   Share.share('${'lbl_share_content'.tr}'
+//for samsung store share link  'https://galaxystore.samsung.com/detail/com.app.berbe' || 'https://galaxy.store/berbe'
+// '\n\nGalaxy : https://galaxystore.samsung.com/detail/com.app.berbe'
       '\n\nAndroid : https://play.google.com/store/apps/details?id=com.app.berbe'
       '\n\niOS : https://apps.apple.com/app/id1608346758'
       '\n\nWebsite : https://berbe.net/');
