@@ -62,6 +62,7 @@ android {
         applicationId "com.app.berbe"
         minSdkVersion 23
         targetSdkVersion flutter.targetSdkVersion
+//        targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
 //        versionCode 4
