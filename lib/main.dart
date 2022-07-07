@@ -22,6 +22,7 @@ import 'manager/my_notification_manager.dart';
 /// call.
 ///
 /// To verify things are working, check out the native platform logs.
+///
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // If you're going to use other Firebase services in the background, such as Firestore,
   // make sure you call `initializeApp` before using other Firebase services.
@@ -70,7 +71,7 @@ Future<void> main() async {
 }
 
 void removeFocus() {
-  WidgetsBinding.instance?.focusManager.primaryFocus?.unfocus();
+  WidgetsBinding.instance.focusManager.primaryFocus?.unfocus();
 }
 
 void showSnackBar(BuildContext context, String message) {

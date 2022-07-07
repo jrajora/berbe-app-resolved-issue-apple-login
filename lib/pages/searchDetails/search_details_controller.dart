@@ -17,12 +17,13 @@ class SearchDetailsController extends GetxController {
   final travelFromCityName = "".obs;
   final travelToCityName = "".obs;
   final vaccinatedValue = "".obs;
+  final isolation_req_dest_country = "".obs;
   final isApiCall = true.obs;
   final isSuccessResp = true.obs;
   final searchData = SearchData().obs;
   final isAdAvailable = false.obs;
   final advertiseList = <AdvertisementData>[].obs;
-  final isVaccinated = true.obs; // jignesh
+  final isVaccinated = true.obs;
 
   final currentPage = 0.obs;
   final pageController = PageController(
@@ -40,7 +41,9 @@ class SearchDetailsController extends GetxController {
       travelFromCityName.value = Get.arguments["travel_from_city"] ?? "";
       travelToCityName.value = Get.arguments["travel_to_city"] ?? "";
       vaccinatedValue.value = Get.arguments["vaccinated"] ?? "";
-
+      isolation_req_dest_country.value =
+          Get.arguments["isolation_req_dest_country"] ?? "";
+      print(isolation_req_dest_country);
       getSearchRules();
     }
   }
@@ -74,7 +77,7 @@ class SearchDetailsController extends GetxController {
               // showSnackBar(Get.context!, responseData.message);
             }
           }
-          getAdvertisement();
+          //  getAdvertisement();
         });
       }
     });

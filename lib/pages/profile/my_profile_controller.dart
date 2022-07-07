@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-
 import 'package:berbe/apiservice/api_service.dart';
 import 'package:berbe/constants/app_size.dart';
 import 'package:berbe/data/model/advertisement_main_model.dart';
@@ -87,7 +86,7 @@ class MyProfileController extends GetxController {
             DateFormat("yyyy-MM-dd").parse(userData.value.dateOfBirth ?? "");
         dobController.value = TextEditingController(text: stFormatShowDate());
         if (!checkString(userData.value.countryCode)) {
-          print("CountryCode : ${userData.value.countryCode}");
+          //   print("CountryCode : ${userData.value.countryCode}");
           stCountryCode.value =
               userData.value.countryCode ?? (details.dialCode ?? "");
         }
@@ -124,7 +123,8 @@ class MyProfileController extends GetxController {
   }
 
   _cropImage(filePath) async {
-    await ImageCropper.cropImage(
+    await ImageCropper()
+        .cropImage(
       sourcePath: filePath,
       maxWidth: 1080,
       maxHeight: 1080,
@@ -138,9 +138,11 @@ class MyProfileController extends GetxController {
               CropAspectRatioPreset.square,
             ],
       // aspectRatio: CropAspectRatio(ratioX: 1.0, ratioY: 1.0)
-    ).then((value) {
+    )
+        .then((value) {
       if (value != null) {
-        profileImgFile.value = value;
+        profileImgFile.value = filePath;
+        // profileImgFile.value = value;
       }
     });
   }
@@ -184,14 +186,12 @@ class MyProfileController extends GetxController {
               }
             }
             showSnackBar(Get.context!, userDataModel.message);
-
             /* else {
                   showSnackBar(Get.context!, response.message);
                 }*/
           });
         } else if (streamedResponse.statusCode == ApiService.UNAUTHORISED) {
           //TODO : Expired Login
-
           /*ApiService.forceLogoutDialog('lbl_session_expired'.tr,
               'lbl_session_expired_msg'.tr, Get.overlayContext!);*/
           ApiService.forceLogoutApiCall();
@@ -204,7 +204,6 @@ class MyProfileController extends GetxController {
 
   Future<StreamedResponse> callMultiPartApi() async {
     var token = await StorageUtil.getData(StorageUtil.keyToken);
-
     Map<String, String> header = <String, String>{};
     if (token != null) {
       header = <String, String>{
@@ -275,8 +274,8 @@ class MyProfileController extends GetxController {
           showSnackBar(Get.context!, 'msg_something_went_wrong'.tr);
         } else {
           openAndCloseLoadingDialog(false);
-            StorageUtil.clearLoginData();
-            Get.offAllNamed(Routes.LOGIN);
+          StorageUtil.clearLoginData();
+          Get.offAllNamed(Routes.LOGIN);
           // LoginMainModel userDataModel = LoginMainModel.fromMap(value);
           // if (userDataModel.status) {
           //   logGoogleAnalyticsEvent('Remove User Data and Account', {});

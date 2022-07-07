@@ -34,7 +34,7 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     compileSdkVersion flutter.compileSdkVersion
-
+    compileSdkVersion 33
     signingConfigs {
         release {
             keyAlias keystoreProperties['keyAlias']
@@ -58,11 +58,11 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+ // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.app.berbe"
         minSdkVersion 23
+        buildToolsVersion "23.0.1"
         targetSdkVersion flutter.targetSdkVersion
-//        targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
 //        versionCode 4

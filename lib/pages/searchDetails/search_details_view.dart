@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:berbe/constants/app_colors.dart';
 import 'package:berbe/constants/app_constant.dart';
 import 'package:berbe/constants/app_images.dart';
@@ -582,14 +581,29 @@ class SearchDetailsView extends GetView<SearchDetailsController> {
                   style: AppText.textBold
                       .copyWith(fontSize: font_15, color: colorBlack),
                 ).marginOnly(top: size_5),
-                Text(
-                  defaultStringValue(
-                      controller.searchData.value.quarantineRequired,
-                      'lbl_no'.tr),
-                  textAlign: TextAlign.start,
-                  softWrap: true,
-                  style: AppText.textSemiBold.copyWith(
-                      fontSize: font_14, color: colorSearchDetailsFnt),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      defaultStringValue(
+                          controller.searchData.value.quarantineRequired,
+                          'lbl_no'.tr),
+                      textAlign: TextAlign.start,
+                      softWrap: true,
+                      style: AppText.textSemiBold.copyWith(
+                          fontSize: font_14, color: colorSearchDetailsFnt),
+                    ),
+                    Text(
+                      checkZeroString(controller
+                              .searchData.value.Isolation_Req_DestCountry)
+                          ? ' '.tr
+                          : ", ${controller.searchData.value.Isolation_Req_DestCountry ?? " "} ${'lbl_days'.tr}",
+                      softWrap: true,
+                      textAlign: TextAlign.start,
+                      style: AppText.textSemiBold.copyWith(
+                          fontSize: font_14, color: colorSearchDetailsFnt),
+                    ),
+                  ],
                 ),
                 /*Text(
                   'lbl_additional_doc_required'.tr,

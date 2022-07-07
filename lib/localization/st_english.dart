@@ -43,6 +43,7 @@ const Map<String, String> stEnglish = {
   'lbl_quarantine_required': 'Quarantine Required',
   'lbl_additional_doc_required': 'Additional document(s) required',
   'lbl_link_submit_doc': 'Link to submit document',
+   
   'lbl_more_info_about_result': 'More Information about entry requirement',
   'lbl_test_required_for_country': 'Test Required For',
   'lbl_session_expired': 'Session Expired',

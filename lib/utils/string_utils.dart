@@ -1,8 +1,16 @@
+import 'dart:ui';
+
 bool checkString(String? value) =>
     value == null || value
         .toString()
         .trim()
         .isEmpty;
+
+bool checkZeroString(String? value) =>
+    value == null || value == "0" || value
+      .toString()
+      .trim()
+      .isEmpty;
 
 String  defaultStringValue(String? value, String def) =>
     value == null || value
